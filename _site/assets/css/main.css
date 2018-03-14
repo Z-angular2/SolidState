@@ -1826,6 +1826,11 @@
 
 	}
 
+	#whatido {
+		color: tomato;
+		margin-top: -52px;
+	}
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -2157,6 +2162,7 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+			color: aqua;
 		}
 
 		.icon > .label {
@@ -3106,7 +3112,7 @@
 	}
 
 		#banner .inner {
-			margin: 0 auto;
+			margin: 0 0 0 293px;
 			width: 55em;
 		}
 
@@ -3154,7 +3160,7 @@
 			filter: blur(0);
 			opacity: 1;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-			font-size: 2.25em;
+			font-size: 3.55em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
 		}
@@ -3178,7 +3184,7 @@
 			filter: blur(0);
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
+			font-size: 1.50em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
@@ -3188,11 +3194,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 8.25em 0 ;
+				padding: 14em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: url("../../images/kelkni.jpg");
 				background-size: contain;
-				background-position: center, top;
+				background-position: top, bottom;
 				margin-bottom: -6.5em;
 			}
 
@@ -3300,7 +3306,7 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/mtn-landscape.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3788,7 +3794,7 @@
 
 		#footer {
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/mountains.jpg");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/mtn-landscape.jpg.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
