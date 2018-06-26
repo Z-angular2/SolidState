@@ -1707,7 +1707,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: tomato !important;
 		}
 
 		a.special:not(.button) {
@@ -1829,6 +1829,7 @@
 	#whatido {
 		color: tomato;
 		margin-top: -52px;
+        font-weight: bolder;
 	}
 
 	sub {
@@ -3301,12 +3302,12 @@
 			text-transform: uppercase;
 		}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1280px) { /* kelv */
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/mtn-landscape.jpg");
+			background-image: linear-gradient(to top, rgba(46, 4, 5, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/merk.png");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3875,3 +3876,68 @@
 		}
 
 	}
+
+.demo {
+	margin-bottom: 15px;
+	color: lawngreen;
+}
+.demo:hover {
+	color: yellow;
+}
+
+/*-  Custom Author Styles  -*/
+
+.built {
+  color: yellow;
+}
+
+#emojis {
+  font-size: 27px;
+}
+
+#menuNoir {
+  color: gold;
+}
+
+#hero {
+  content: url(../../images/heroku.png);
+}
+
+span#hero {
+  width: 46px;
+  margin-bottom: -10px;
+}
+
+#simples {
+  margin-left: 40px;
+}
+
+#dow {
+  margin-bottom: -4px;
+}
+
+@media screen and (min-width: 1281px) {
+
+    #banner {
+        padding: 14em 0 8.25em 0 ;
+        background-color: #2e3141;
+        background-image: url("../../images/cartoonKel.png");
+        background-size: contain;
+        background-position: top, bottom;
+        margin-bottom: -6.5em;
+    }
+
+}
+
+@media screen and (min-width: 1281px) {
+
+  #wrapper > header {
+      padding: 9em 0 6.25em 0 ;
+      background-color: #2e3141;
+      background-image: linear-gradient(to top, rgba(46, 3, 5, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/por.png");
+      background-size: auto, cover;
+      background-position: center, 0% 30%;
+      margin-bottom: -6.5em;
+  }
+
+}
