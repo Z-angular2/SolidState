@@ -3281,19 +3281,19 @@
 		padding: 11em 0 2.25em 0 ;
 	}
 
-		#wrapper > header .inner {
+		#wrapper > header .inner, #blog-wrapper > header .inner {
 			margin: 0 auto;
 			width: 55em;
 		}
 
-		#wrapper > header h2 {
+		#wrapper > header h2, #blog-wrapper > header h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
 		}
 
-		#wrapper > header p {
+		#wrapper > header p, #blog-wrapper > header p {
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
@@ -3307,7 +3307,20 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 4, 5, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/merk.png");
+			background-image: linear-gradient(to top, rgba(46, 4, 5, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/martindb5.jpg");
+			background-size: auto, cover;
+			background-position: center, 0% 30%;
+			margin-bottom: -6.5em;
+		}
+
+	}
+
+    @media screen and (max-width: 1280px) { /* kelv */
+
+		#blog-wrapper > header {
+			padding: 9em 0 6.25em 0 ;
+			background-color: #2e3141;
+			background-image: linear-gradient(to top, rgba(46, 4, 5, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/mars.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3324,7 +3337,7 @@
 			margin-bottom: -4.75em;
 		}
 
-			#wrapper > header .inner {
+			#wrapper > header .inner, #blog-wrapper > header .inner {
 				width: 100%;
 			}
 
@@ -3342,7 +3355,7 @@
 				font-size: 1.25em;
 			}
 
-			#wrapper > header p {
+			#wrapper > header p, #blog-wrapper > header p {
 				font-size: 0.8em;
 			}
 
@@ -3894,6 +3907,9 @@
 #emojis {
   font-size: 27px;
 }
+#emojis2 {
+  font-size: 40px;
+}
 
 #menuNoir {
   color: gold;
@@ -3934,7 +3950,15 @@ span#hero {
   #wrapper > header {
       padding: 9em 0 6.25em 0 ;
       background-color: #2e3141;
-      background-image: linear-gradient(to top, rgba(46, 3, 5, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/por.png");
+      background-image: linear-gradient(to top, rgba(16, 1, 2, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/merk.png");
+      background-size: auto, cover;
+      background-position: center, 0% 30%;
+      margin-bottom: -6.5em;
+  }
+  #blog-wrapper > header {
+      padding: 9em 0 6.25em 0 ;
+      background-color: #2e3141;
+      background-image: linear-gradient(to top, rgba(16, 1, 2, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/mars.jpg");
       background-size: auto, cover;
       background-position: center, 0% 30%;
       margin-bottom: -6.5em;
