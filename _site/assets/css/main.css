@@ -3900,6 +3900,11 @@
 
 /*-  Custom Author Styles  -*/
 
+#techImg3 {
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
 .built {
   color: yellow;
 }
