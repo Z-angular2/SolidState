@@ -3328,6 +3328,19 @@
 
 	}
 
+	@media screen and (max-width: 1280px) { /* kelv */
+
+		#toulon-wrapper > header {
+			padding: 9em 0 6.25em 0 ;
+			background-color: #2e3141;
+			background-image: linear-gradient(to top, rgba(46, 4, 5, 0.2), rgba(46, 49, 65, 0.8)), url("../../images/thosedambrits.png");
+			background-size: auto, cover;
+			background-position: center, 0% 30%;
+			margin-bottom: -6.5em;
+		}
+
+	}
+
 	@media screen and (max-width: 980px) {
 
 		#wrapper > header {
@@ -3922,6 +3935,13 @@
 
 #hero {
   content: url(../../images/heroku.png);
+}
+#hero2 {
+	content: url(../../images/Fbase.png);
+}
+#hero2, image {
+	width: 121px;
+	margin-left: 20px;
 }
 
 span#hero {
